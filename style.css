@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-container {
+  display: grid;
+  place-items: center;
+  padding: 2% 5%;
+}
+
+.table-container table {
+  font-size: 1.5rem;
+  border-spacing: 15px;
+}
+
+.table-container .button-wrap {
+  display: flex;
+  gap: 25px;
+}
+
+.table-container .button-wrap button {
+  border: 0 solid #ffffff;
+  background-color: darkslateblue;
+  color: #ffffff;
+  padding: 2% 5%;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
